@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deorbit-as-a-Service Planner – Starfish Space</title>
+<link rel="icon" href="assets/favicon.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="#" aria-label="Starfish Space"><img src="assets/logo-color.svg" alt="Starfish Space" width="190" height="51"></a>
+  <nav class="main-nav">
+    <a href="#">The Otter</a>
+    <a href="#">Company</a>
+    <a href="#" class="active">Missions</a>
+    <a href="#">Careers</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<section class="hero led">
+  <div class="wrap">
+    <h1>Deorbit-as-a-<br>Service Planner</h1>
+    <p class="hero-sub" id="heroSub">One Otter, one tank, a whole shell of failed satellites.</p>
+  </div>
+</section>
+
+<main class="grid-section">
+  <div class="wrap">
+    <div class="row three" id="kpis"></div>
+
+    <article class="card wide">
+      <div class="card-media chart-media">
+        <div class="media-head">
+          <div class="media-title">Relative node timeline</div>
+          <div class="seg" id="policySeg">
+            <button data-p="coupled" class="on">Drift-coupled</button>
+            <button data-p="park">Return-and-park</button>
+          </div>
+        </div>
+        <svg id="nodeChart" class="chart" viewBox="0 0 1230 430" preserveAspectRatio="none" aria-label="Relative RAAN versus time"></svg>
+        <div class="legend">
+          <span><i class="sw drift"></i>Otter drifting at release altitude</span>
+          <span><i class="sw tow"></i>Towing client down</span>
+          <span><i class="sw climb"></i>Spiral climb / descent</span>
+          <span><i class="dot fail"></i>Satellite failure</span>
+          <span><i class="dot dock"></i>Capture</span>
+        </div>
+      </div>
+      <div class="card-body">
+        <h3 id="planTitle">Plan</h3>
+        <div class="meta-row">
+          <p class="meta" id="planMeta"></p>
+          <a class="pill" href="#manifest">View manifest</a>
+        </div>
+      </div>
+    </article>
+
+    <div class="row two-one">
+      <article class="card" id="manifest">
+        <div class="card-body table-body">
+          <h3>Disposal manifest</h3>
+          <table class="tbl" id="manifestTbl"></table>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-media chart-media small">
+          <div class="media-title">Altitude and xenon</div>
+          <svg id="altChart" class="chart" viewBox="0 0 390 300" preserveAspectRatio="none"></svg>
+        </div>
+        <div class="card-body">
+          <h3>Vehicle state</h3>
+          <div class="meta-row"><p class="meta" id="altMeta"></p></div>
+        </div>
+      </article>
+    </div>
+
+    <article class="card wide">
+      <div class="card-media chart-media mc">
+        <div class="media-head">
+          <div class="media-title">Capacity across <span id="mcRuns"></span> simulated failure histories</div>
+        </div>
+        <div class="mc-grid">
+          <svg id="mcChart" class="chart" viewBox="0 0 560 300" preserveAspectRatio="none"></svg>
+          <table class="tbl dark" id="mcTbl"></table>
+        </div>
+      </div>
+      <div class="card-body">
+        <h3>Monte Carlo service levels</h3>
+        <div class="meta-row"><p class="meta" id="mcMeta"></p></div>
+      </div>
+    </article>
+
+    <div class="row two-one">
+      <article class="card">
+        <div class="card-body">
+          <h3>Assumptions</h3>
+          <form class="assume" id="assume">
+            <label>Xenon load (kg)<input type="number" name="xenonKg" step="5" min="20" max="200"></label>
+            <label>Client mass (kg)<input type="number" name="clientKg" step="10" min="50" max="800"></label>
+            <label>Release altitude (km)<input type="number" name="releaseKm" step="10" min="350" max="700"></label>
+            <label>Thrust (mN)<input type="number" name="thrustMn" step="5" min="10" max="200"></label>
+            <label>Isp (s)<input type="number" name="ispS" step="50" min="500" max="3000"></label>
+            <label>Failure scale η (yr)<input type="number" name="eta" step="2" min="8" max="120"></label>
+          </form>
+          <div class="meta-row"><p class="meta" id="assumeMeta"></p><button class="pill" id="replan" type="button">Re-plan</button></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-body">
+          <h3>How the planner works</h3>
+          <ol class="how">
+            <li>Every plane in the shell precesses together, so the planner works in the shell's own nodal frame where each plane is a fixed angle.</li>
+            <li>Towing a client from the shell to the release altitude already drags Otter west in that frame. Instead of climbing straight back, Otter dwells low until the next client's plane comes around, then climbs; the climb's own drift is solved so it lands on the plane exactly.</li>
+            <li>Clients are served in "soonest release" order (the RAAN walk). Each spiral uses Edelbaum low-thrust Δv with constant thrust and falling mass.</li>
+            <li>Failures are random (Weibull lifetimes per satellite), so capacity is reported as a distribution over simulated histories, not one plan.</li>
+          </ol>
+        </div>
+      </article>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot">
+    <img src="assets/logo-color.svg" alt="" width="150" height="40">
+    <div class="foot-links"><a href="#">News</a><a href="#">Privacy Policy</a></div>
+    <p class="disclaimer">Unofficial concept demo by Mohith Gajjela. Not affiliated with Starfish Space. Synthetic data.</p>
+  </div>
+</footer>
+
+<div class="tip" id="tip"></div>
+<script src="core/planner.js"></script>
+<script src="data/constellation.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

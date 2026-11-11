@@ -1,0 +1,1717 @@
+{
+ "generated": "seed 2027",
+ "constellation": {
+  "name": "Example LEO constellation (synthetic)",
+  "planes": 12,
+  "slots": 20,
+  "shellKm": 900,
+  "incDeg": 53,
+  "weibullBeta": 1.3,
+  "weibullEtaYears": 24,
+  "handoverDays": 30,
+  "horizonDays": 1096,
+  "baseSeed": 7,
+  "sats": [
+   {
+    "id": "P01-S01",
+    "plane": 1,
+    "slot": 1,
+    "phi": 0,
+    "launchDay": -650
+   },
+   {
+    "id": "P01-S02",
+    "plane": 1,
+    "slot": 2,
+    "phi": 0,
+    "launchDay": -660
+   },
+   {
+    "id": "P01-S03",
+    "plane": 1,
+    "slot": 3,
+    "phi": 0,
+    "launchDay": -666
+   },
+   {
+    "id": "P01-S04",
+    "plane": 1,
+    "slot": 4,
+    "phi": 0,
+    "launchDay": -662
+   },
+   {
+    "id": "P01-S05",
+    "plane": 1,
+    "slot": 5,
+    "phi": 0,
+    "launchDay": -663
+   },
+   {
+    "id": "P01-S06",
+    "plane": 1,
+    "slot": 6,
+    "phi": 0,
+    "launchDay": -661
+   },
+   {
+    "id": "P01-S07",
+    "plane": 1,
+    "slot": 7,
+    "phi": 0,
+    "launchDay": -654
+   },
+   {
+    "id": "P01-S08",
+    "plane": 1,
+    "slot": 8,
+    "phi": 0,
+    "launchDay": -657
+   },
+   {
+    "id": "P01-S09",
+    "plane": 1,
+    "slot": 9,
+    "phi": 0,
+    "launchDay": -652
+   },
+   {
+    "id": "P01-S10",
+    "plane": 1,
+    "slot": 10,
+    "phi": 0,
+    "launchDay": -657
+   },
+   {
+    "id": "P01-S11",
+    "plane": 1,
+    "slot": 11,
+    "phi": 0,
+    "launchDay": -650
+   },
+   {
+    "id": "P01-S12",
+    "plane": 1,
+    "slot": 12,
+    "phi": 0,
+    "launchDay": -662
+   },
+   {
+    "id": "P01-S13",
+    "plane": 1,
+    "slot": 13,
+    "phi": 0,
+    "launchDay": -666
+   },
+   {
+    "id": "P01-S14",
+    "plane": 1,
+    "slot": 14,
+    "phi": 0,
+    "launchDay": -657
+   },
+   {
+    "id": "P01-S15",
+    "plane": 1,
+    "slot": 15,
+    "phi": 0,
+    "launchDay": -652
+   },
+   {
+    "id": "P01-S16",
+    "plane": 1,
+    "slot": 16,
+    "phi": 0,
+    "launchDay": -656
+   },
+   {
+    "id": "P01-S17",
+    "plane": 1,
+    "slot": 17,
+    "phi": 0,
+    "launchDay": -651
+   },
+   {
+    "id": "P01-S18",
+    "plane": 1,
+    "slot": 18,
+    "phi": 0,
+    "launchDay": -661
+   },
+   {
+    "id": "P01-S19",
+    "plane": 1,
+    "slot": 19,
+    "phi": 0,
+    "launchDay": -658
+   },
+   {
+    "id": "P01-S20",
+    "plane": 1,
+    "slot": 20,
+    "phi": 0,
+    "launchDay": -665
+   },
+   {
+    "id": "P02-S01",
+    "plane": 2,
+    "slot": 1,
+    "phi": 30,
+    "launchDay": -668
+   },
+   {
+    "id": "P02-S02",
+    "plane": 2,
+    "slot": 2,
+    "phi": 30,
+    "launchDay": -658
+   },
+   {
+    "id": "P02-S03",
+    "plane": 2,
+    "slot": 3,
+    "phi": 30,
+    "launchDay": -659
+   },
+   {
+    "id": "P02-S04",
+    "plane": 2,
+    "slot": 4,
+    "phi": 30,
+    "launchDay": -657
+   },
+   {
+    "id": "P02-S05",
+    "plane": 2,
+    "slot": 5,
+    "phi": 30,
+    "launchDay": -667
+   },
+   {
+    "id": "P02-S06",
+    "plane": 2,
+    "slot": 6,
+    "phi": 30,
+    "launchDay": -666
+   },
+   {
+    "id": "P02-S07",
+    "plane": 2,
+    "slot": 7,
+    "phi": 30,
+    "launchDay": -662
+   },
+   {
+    "id": "P02-S08",
+    "plane": 2,
+    "slot": 8,
+    "phi": 30,
+    "launchDay": -667
+   },
+   {
+    "id": "P02-S09",
+    "plane": 2,
+    "slot": 9,
+    "phi": 30,
+    "launchDay": -663
+   },
+   {
+    "id": "P02-S10",
+    "plane": 2,
+    "slot": 10,
+    "phi": 30,
+    "launchDay": -669
+   },
+   {
+    "id": "P02-S11",
+    "plane": 2,
+    "slot": 11,
+    "phi": 30,
+    "launchDay": -655
+   },
+   {
+    "id": "P02-S12",
+    "plane": 2,
+    "slot": 12,
+    "phi": 30,
+    "launchDay": -662
+   },
+   {
+    "id": "P02-S13",
+    "plane": 2,
+    "slot": 13,
+    "phi": 30,
+    "launchDay": -663
+   },
+   {
+    "id": "P02-S14",
+    "plane": 2,
+    "slot": 14,
+    "phi": 30,
+    "launchDay": -664
+   },
+   {
+    "id": "P02-S15",
+    "plane": 2,
+    "slot": 15,
+    "phi": 30,
+    "launchDay": -662
+   },
+   {
+    "id": "P02-S16",
+    "plane": 2,
+    "slot": 16,
+    "phi": 30,
+    "launchDay": -660
+   },
+   {
+    "id": "P02-S17",
+    "plane": 2,
+    "slot": 17,
+    "phi": 30,
+    "launchDay": -658
+   },
+   {
+    "id": "P02-S18",
+    "plane": 2,
+    "slot": 18,
+    "phi": 30,
+    "launchDay": -655
+   },
+   {
+    "id": "P02-S19",
+    "plane": 2,
+    "slot": 19,
+    "phi": 30,
+    "launchDay": -654
+   },
+   {
+    "id": "P02-S20",
+    "plane": 2,
+    "slot": 20,
+    "phi": 30,
+    "launchDay": -652
+   },
+   {
+    "id": "P03-S01",
+    "plane": 3,
+    "slot": 1,
+    "phi": 60,
+    "launchDay": -575
+   },
+   {
+    "id": "P03-S02",
+    "plane": 3,
+    "slot": 2,
+    "phi": 60,
+    "launchDay": -567
+   },
+   {
+    "id": "P03-S03",
+    "plane": 3,
+    "slot": 3,
+    "phi": 60,
+    "launchDay": -577
+   },
+   {
+    "id": "P03-S04",
+    "plane": 3,
+    "slot": 4,
+    "phi": 60,
+    "launchDay": -567
+   },
+   {
+    "id": "P03-S05",
+    "plane": 3,
+    "slot": 5,
+    "phi": 60,
+    "launchDay": -562
+   },
+   {
+    "id": "P03-S06",
+    "plane": 3,
+    "slot": 6,
+    "phi": 60,
+    "launchDay": -566
+   },
+   {
+    "id": "P03-S07",
+    "plane": 3,
+    "slot": 7,
+    "phi": 60,
+    "launchDay": -575
+   },
+   {
+    "id": "P03-S08",
+    "plane": 3,
+    "slot": 8,
+    "phi": 60,
+    "launchDay": -578
+   },
+   {
+    "id": "P03-S09",
+    "plane": 3,
+    "slot": 9,
+    "phi": 60,
+    "launchDay": -561
+   },
+   {
+    "id": "P03-S10",
+    "plane": 3,
+    "slot": 10,
+    "phi": 60,
+    "launchDay": -572
+   },
+   {
+    "id": "P03-S11",
+    "plane": 3,
+    "slot": 11,
+    "phi": 60,
+    "launchDay": -578
+   },
+   {
+    "id": "P03-S12",
+    "plane": 3,
+    "slot": 12,
+    "phi": 60,
+    "launchDay": -573
+   },
+   {
+    "id": "P03-S13",
+    "plane": 3,
+    "slot": 13,
+    "phi": 60,
+    "launchDay": -577
+   },
+   {
+    "id": "P03-S14",
+    "plane": 3,
+    "slot": 14,
+    "phi": 60,
+    "launchDay": -573
+   },
+   {
+    "id": "P03-S15",
+    "plane": 3,
+    "slot": 15,
+    "phi": 60,
+    "launchDay": -568
+   },
+   {
+    "id": "P03-S16",
+    "plane": 3,
+    "slot": 16,
+    "phi": 60,
+    "launchDay": -570
+   },
+   {
+    "id": "P03-S17",
+    "plane": 3,
+    "slot": 17,
+    "phi": 60,
+    "launchDay": -576
+   },
+   {
+    "id": "P03-S18",
+    "plane": 3,
+    "slot": 18,
+    "phi": 60,
+    "launchDay": -567
+   },
+   {
+    "id": "P03-S19",
+    "plane": 3,
+    "slot": 19,
+    "phi": 60,
+    "launchDay": -576
+   },
+   {
+    "id": "P03-S20",
+    "plane": 3,
+    "slot": 20,
+    "phi": 60,
+    "launchDay": -579
+   },
+   {
+    "id": "P04-S01",
+    "plane": 4,
+    "slot": 1,
+    "phi": 90,
+    "launchDay": -568
+   },
+   {
+    "id": "P04-S02",
+    "plane": 4,
+    "slot": 2,
+    "phi": 90,
+    "launchDay": -580
+   },
+   {
+    "id": "P04-S03",
+    "plane": 4,
+    "slot": 3,
+    "phi": 90,
+    "launchDay": -568
+   },
+   {
+    "id": "P04-S04",
+    "plane": 4,
+    "slot": 4,
+    "phi": 90,
+    "launchDay": -579
+   },
+   {
+    "id": "P04-S05",
+    "plane": 4,
+    "slot": 5,
+    "phi": 90,
+    "launchDay": -568
+   },
+   {
+    "id": "P04-S06",
+    "plane": 4,
+    "slot": 6,
+    "phi": 90,
+    "launchDay": -570
+   },
+   {
+    "id": "P04-S07",
+    "plane": 4,
+    "slot": 7,
+    "phi": 90,
+    "launchDay": -564
+   },
+   {
+    "id": "P04-S08",
+    "plane": 4,
+    "slot": 8,
+    "phi": 90,
+    "launchDay": -563
+   },
+   {
+    "id": "P04-S09",
+    "plane": 4,
+    "slot": 9,
+    "phi": 90,
+    "launchDay": -577
+   },
+   {
+    "id": "P04-S10",
+    "plane": 4,
+    "slot": 10,
+    "phi": 90,
+    "launchDay": -573
+   },
+   {
+    "id": "P04-S11",
+    "plane": 4,
+    "slot": 11,
+    "phi": 90,
+    "launchDay": -573
+   },
+   {
+    "id": "P04-S12",
+    "plane": 4,
+    "slot": 12,
+    "phi": 90,
+    "launchDay": -574
+   },
+   {
+    "id": "P04-S13",
+    "plane": 4,
+    "slot": 13,
+    "phi": 90,
+    "launchDay": -574
+   },
+   {
+    "id": "P04-S14",
+    "plane": 4,
+    "slot": 14,
+    "phi": 90,
+    "launchDay": -572
+   },
+   {
+    "id": "P04-S15",
+    "plane": 4,
+    "slot": 15,
+    "phi": 90,
+    "launchDay": -571
+   },
+   {
+    "id": "P04-S16",
+    "plane": 4,
+    "slot": 16,
+    "phi": 90,
+    "launchDay": -565
+   },
+   {
+    "id": "P04-S17",
+    "plane": 4,
+    "slot": 17,
+    "phi": 90,
+    "launchDay": -569
+   },
+   {
+    "id": "P04-S18",
+    "plane": 4,
+    "slot": 18,
+    "phi": 90,
+    "launchDay": -578
+   },
+   {
+    "id": "P04-S19",
+    "plane": 4,
+    "slot": 19,
+    "phi": 90,
+    "launchDay": -571
+   },
+   {
+    "id": "P04-S20",
+    "plane": 4,
+    "slot": 20,
+    "phi": 90,
+    "launchDay": -565
+   },
+   {
+    "id": "P05-S01",
+    "plane": 5,
+    "slot": 1,
+    "phi": 120,
+    "launchDay": -484
+   },
+   {
+    "id": "P05-S02",
+    "plane": 5,
+    "slot": 2,
+    "phi": 120,
+    "launchDay": -480
+   },
+   {
+    "id": "P05-S03",
+    "plane": 5,
+    "slot": 3,
+    "phi": 120,
+    "launchDay": -483
+   },
+   {
+    "id": "P05-S04",
+    "plane": 5,
+    "slot": 4,
+    "phi": 120,
+    "launchDay": -485
+   },
+   {
+    "id": "P05-S05",
+    "plane": 5,
+    "slot": 5,
+    "phi": 120,
+    "launchDay": -476
+   },
+   {
+    "id": "P05-S06",
+    "plane": 5,
+    "slot": 6,
+    "phi": 120,
+    "launchDay": -490
+   },
+   {
+    "id": "P05-S07",
+    "plane": 5,
+    "slot": 7,
+    "phi": 120,
+    "launchDay": -474
+   },
+   {
+    "id": "P05-S08",
+    "plane": 5,
+    "slot": 8,
+    "phi": 120,
+    "launchDay": -480
+   },
+   {
+    "id": "P05-S09",
+    "plane": 5,
+    "slot": 9,
+    "phi": 120,
+    "launchDay": -481
+   },
+   {
+    "id": "P05-S10",
+    "plane": 5,
+    "slot": 10,
+    "phi": 120,
+    "launchDay": -474
+   },
+   {
+    "id": "P05-S11",
+    "plane": 5,
+    "slot": 11,
+    "phi": 120,
+    "launchDay": -481
+   },
+   {
+    "id": "P05-S12",
+    "plane": 5,
+    "slot": 12,
+    "phi": 120,
+    "launchDay": -473
+   },
+   {
+    "id": "P05-S13",
+    "plane": 5,
+    "slot": 13,
+    "phi": 120,
+    "launchDay": -484
+   },
+   {
+    "id": "P05-S14",
+    "plane": 5,
+    "slot": 14,
+    "phi": 120,
+    "launchDay": -486
+   },
+   {
+    "id": "P05-S15",
+    "plane": 5,
+    "slot": 15,
+    "phi": 120,
+    "launchDay": -477
+   },
+   {
+    "id": "P05-S16",
+    "plane": 5,
+    "slot": 16,
+    "phi": 120,
+    "launchDay": -473
+   },
+   {
+    "id": "P05-S17",
+    "plane": 5,
+    "slot": 17,
+    "phi": 120,
+    "launchDay": -482
+   },
+   {
+    "id": "P05-S18",
+    "plane": 5,
+    "slot": 18,
+    "phi": 120,
+    "launchDay": -487
+   },
+   {
+    "id": "P05-S19",
+    "plane": 5,
+    "slot": 19,
+    "phi": 120,
+    "launchDay": -488
+   },
+   {
+    "id": "P05-S20",
+    "plane": 5,
+    "slot": 20,
+    "phi": 120,
+    "launchDay": -471
+   },
+   {
+    "id": "P06-S01",
+    "plane": 6,
+    "slot": 1,
+    "phi": 150,
+    "launchDay": -473
+   },
+   {
+    "id": "P06-S02",
+    "plane": 6,
+    "slot": 2,
+    "phi": 150,
+    "launchDay": -474
+   },
+   {
+    "id": "P06-S03",
+    "plane": 6,
+    "slot": 3,
+    "phi": 150,
+    "launchDay": -489
+   },
+   {
+    "id": "P06-S04",
+    "plane": 6,
+    "slot": 4,
+    "phi": 150,
+    "launchDay": -480
+   },
+   {
+    "id": "P06-S05",
+    "plane": 6,
+    "slot": 5,
+    "phi": 150,
+    "launchDay": -478
+   },
+   {
+    "id": "P06-S06",
+    "plane": 6,
+    "slot": 6,
+    "phi": 150,
+    "launchDay": -488
+   },
+   {
+    "id": "P06-S07",
+    "plane": 6,
+    "slot": 7,
+    "phi": 150,
+    "launchDay": -479
+   },
+   {
+    "id": "P06-S08",
+    "plane": 6,
+    "slot": 8,
+    "phi": 150,
+    "launchDay": -480
+   },
+   {
+    "id": "P06-S09",
+    "plane": 6,
+    "slot": 9,
+    "phi": 150,
+    "launchDay": -475
+   },
+   {
+    "id": "P06-S10",
+    "plane": 6,
+    "slot": 10,
+    "phi": 150,
+    "launchDay": -485
+   },
+   {
+    "id": "P06-S11",
+    "plane": 6,
+    "slot": 11,
+    "phi": 150,
+    "launchDay": -489
+   },
+   {
+    "id": "P06-S12",
+    "plane": 6,
+    "slot": 12,
+    "phi": 150,
+    "launchDay": -473
+   },
+   {
+    "id": "P06-S13",
+    "plane": 6,
+    "slot": 13,
+    "phi": 150,
+    "launchDay": -477
+   },
+   {
+    "id": "P06-S14",
+    "plane": 6,
+    "slot": 14,
+    "phi": 150,
+    "launchDay": -472
+   },
+   {
+    "id": "P06-S15",
+    "plane": 6,
+    "slot": 15,
+    "phi": 150,
+    "launchDay": -484
+   },
+   {
+    "id": "P06-S16",
+    "plane": 6,
+    "slot": 16,
+    "phi": 150,
+    "launchDay": -470
+   },
+   {
+    "id": "P06-S17",
+    "plane": 6,
+    "slot": 17,
+    "phi": 150,
+    "launchDay": -484
+   },
+   {
+    "id": "P06-S18",
+    "plane": 6,
+    "slot": 18,
+    "phi": 150,
+    "launchDay": -488
+   },
+   {
+    "id": "P06-S19",
+    "plane": 6,
+    "slot": 19,
+    "phi": 150,
+    "launchDay": -475
+   },
+   {
+    "id": "P06-S20",
+    "plane": 6,
+    "slot": 20,
+    "phi": 150,
+    "launchDay": -479
+   },
+   {
+    "id": "P07-S01",
+    "plane": 7,
+    "slot": 1,
+    "phi": 180,
+    "launchDay": -395
+   },
+   {
+    "id": "P07-S02",
+    "plane": 7,
+    "slot": 2,
+    "phi": 180,
+    "launchDay": -397
+   },
+   {
+    "id": "P07-S03",
+    "plane": 7,
+    "slot": 3,
+    "phi": 180,
+    "launchDay": -395
+   },
+   {
+    "id": "P07-S04",
+    "plane": 7,
+    "slot": 4,
+    "phi": 180,
+    "launchDay": -380
+   },
+   {
+    "id": "P07-S05",
+    "plane": 7,
+    "slot": 5,
+    "phi": 180,
+    "launchDay": -398
+   },
+   {
+    "id": "P07-S06",
+    "plane": 7,
+    "slot": 6,
+    "phi": 180,
+    "launchDay": -380
+   },
+   {
+    "id": "P07-S07",
+    "plane": 7,
+    "slot": 7,
+    "phi": 180,
+    "launchDay": -393
+   },
+   {
+    "id": "P07-S08",
+    "plane": 7,
+    "slot": 8,
+    "phi": 180,
+    "launchDay": -393
+   },
+   {
+    "id": "P07-S09",
+    "plane": 7,
+    "slot": 9,
+    "phi": 180,
+    "launchDay": -387
+   },
+   {
+    "id": "P07-S10",
+    "plane": 7,
+    "slot": 10,
+    "phi": 180,
+    "launchDay": -392
+   },
+   {
+    "id": "P07-S11",
+    "plane": 7,
+    "slot": 11,
+    "phi": 180,
+    "launchDay": -390
+   },
+   {
+    "id": "P07-S12",
+    "plane": 7,
+    "slot": 12,
+    "phi": 180,
+    "launchDay": -391
+   },
+   {
+    "id": "P07-S13",
+    "plane": 7,
+    "slot": 13,
+    "phi": 180,
+    "launchDay": -394
+   },
+   {
+    "id": "P07-S14",
+    "plane": 7,
+    "slot": 14,
+    "phi": 180,
+    "launchDay": -386
+   },
+   {
+    "id": "P07-S15",
+    "plane": 7,
+    "slot": 15,
+    "phi": 180,
+    "launchDay": -383
+   },
+   {
+    "id": "P07-S16",
+    "plane": 7,
+    "slot": 16,
+    "phi": 180,
+    "launchDay": -381
+   },
+   {
+    "id": "P07-S17",
+    "plane": 7,
+    "slot": 17,
+    "phi": 180,
+    "launchDay": -392
+   },
+   {
+    "id": "P07-S18",
+    "plane": 7,
+    "slot": 18,
+    "phi": 180,
+    "launchDay": -388
+   },
+   {
+    "id": "P07-S19",
+    "plane": 7,
+    "slot": 19,
+    "phi": 180,
+    "launchDay": -397
+   },
+   {
+    "id": "P07-S20",
+    "plane": 7,
+    "slot": 20,
+    "phi": 180,
+    "launchDay": -397
+   },
+   {
+    "id": "P08-S01",
+    "plane": 8,
+    "slot": 1,
+    "phi": 210,
+    "launchDay": -389
+   },
+   {
+    "id": "P08-S02",
+    "plane": 8,
+    "slot": 2,
+    "phi": 210,
+    "launchDay": -396
+   },
+   {
+    "id": "P08-S03",
+    "plane": 8,
+    "slot": 3,
+    "phi": 210,
+    "launchDay": -397
+   },
+   {
+    "id": "P08-S04",
+    "plane": 8,
+    "slot": 4,
+    "phi": 210,
+    "launchDay": -392
+   },
+   {
+    "id": "P08-S05",
+    "plane": 8,
+    "slot": 5,
+    "phi": 210,
+    "launchDay": -388
+   },
+   {
+    "id": "P08-S06",
+    "plane": 8,
+    "slot": 6,
+    "phi": 210,
+    "launchDay": -386
+   },
+   {
+    "id": "P08-S07",
+    "plane": 8,
+    "slot": 7,
+    "phi": 210,
+    "launchDay": -392
+   },
+   {
+    "id": "P08-S08",
+    "plane": 8,
+    "slot": 8,
+    "phi": 210,
+    "launchDay": -381
+   },
+   {
+    "id": "P08-S09",
+    "plane": 8,
+    "slot": 9,
+    "phi": 210,
+    "launchDay": -393
+   },
+   {
+    "id": "P08-S10",
+    "plane": 8,
+    "slot": 10,
+    "phi": 210,
+    "launchDay": -386
+   },
+   {
+    "id": "P08-S11",
+    "plane": 8,
+    "slot": 11,
+    "phi": 210,
+    "launchDay": -393
+   },
+   {
+    "id": "P08-S12",
+    "plane": 8,
+    "slot": 12,
+    "phi": 210,
+    "launchDay": -386
+   },
+   {
+    "id": "P08-S13",
+    "plane": 8,
+    "slot": 13,
+    "phi": 210,
+    "launchDay": -394
+   },
+   {
+    "id": "P08-S14",
+    "plane": 8,
+    "slot": 14,
+    "phi": 210,
+    "launchDay": -396
+   },
+   {
+    "id": "P08-S15",
+    "plane": 8,
+    "slot": 15,
+    "phi": 210,
+    "launchDay": -387
+   },
+   {
+    "id": "P08-S16",
+    "plane": 8,
+    "slot": 16,
+    "phi": 210,
+    "launchDay": -387
+   },
+   {
+    "id": "P08-S17",
+    "plane": 8,
+    "slot": 17,
+    "phi": 210,
+    "launchDay": -382
+   },
+   {
+    "id": "P08-S18",
+    "plane": 8,
+    "slot": 18,
+    "phi": 210,
+    "launchDay": -399
+   },
+   {
+    "id": "P08-S19",
+    "plane": 8,
+    "slot": 19,
+    "phi": 210,
+    "launchDay": -394
+   },
+   {
+    "id": "P08-S20",
+    "plane": 8,
+    "slot": 20,
+    "phi": 210,
+    "launchDay": -387
+   },
+   {
+    "id": "P09-S01",
+    "plane": 9,
+    "slot": 1,
+    "phi": 240,
+    "launchDay": -299
+   },
+   {
+    "id": "P09-S02",
+    "plane": 9,
+    "slot": 2,
+    "phi": 240,
+    "launchDay": -302
+   },
+   {
+    "id": "P09-S03",
+    "plane": 9,
+    "slot": 3,
+    "phi": 240,
+    "launchDay": -303
+   },
+   {
+    "id": "P09-S04",
+    "plane": 9,
+    "slot": 4,
+    "phi": 240,
+    "launchDay": -306
+   },
+   {
+    "id": "P09-S05",
+    "plane": 9,
+    "slot": 5,
+    "phi": 240,
+    "launchDay": -299
+   },
+   {
+    "id": "P09-S06",
+    "plane": 9,
+    "slot": 6,
+    "phi": 240,
+    "launchDay": -301
+   },
+   {
+    "id": "P09-S07",
+    "plane": 9,
+    "slot": 7,
+    "phi": 240,
+    "launchDay": -291
+   },
+   {
+    "id": "P09-S08",
+    "plane": 9,
+    "slot": 8,
+    "phi": 240,
+    "launchDay": -299
+   },
+   {
+    "id": "P09-S09",
+    "plane": 9,
+    "slot": 9,
+    "phi": 240,
+    "launchDay": -308
+   },
+   {
+    "id": "P09-S10",
+    "plane": 9,
+    "slot": 10,
+    "phi": 240,
+    "launchDay": -295
+   },
+   {
+    "id": "P09-S11",
+    "plane": 9,
+    "slot": 11,
+    "phi": 240,
+    "launchDay": -299
+   },
+   {
+    "id": "P09-S12",
+    "plane": 9,
+    "slot": 12,
+    "phi": 240,
+    "launchDay": -305
+   },
+   {
+    "id": "P09-S13",
+    "plane": 9,
+    "slot": 13,
+    "phi": 240,
+    "launchDay": -309
+   },
+   {
+    "id": "P09-S14",
+    "plane": 9,
+    "slot": 14,
+    "phi": 240,
+    "launchDay": -305
+   },
+   {
+    "id": "P09-S15",
+    "plane": 9,
+    "slot": 15,
+    "phi": 240,
+    "launchDay": -292
+   },
+   {
+    "id": "P09-S16",
+    "plane": 9,
+    "slot": 16,
+    "phi": 240,
+    "launchDay": -297
+   },
+   {
+    "id": "P09-S17",
+    "plane": 9,
+    "slot": 17,
+    "phi": 240,
+    "launchDay": -308
+   },
+   {
+    "id": "P09-S18",
+    "plane": 9,
+    "slot": 18,
+    "phi": 240,
+    "launchDay": -293
+   },
+   {
+    "id": "P09-S19",
+    "plane": 9,
+    "slot": 19,
+    "phi": 240,
+    "launchDay": -293
+   },
+   {
+    "id": "P09-S20",
+    "plane": 9,
+    "slot": 20,
+    "phi": 240,
+    "launchDay": -303
+   },
+   {
+    "id": "P10-S01",
+    "plane": 10,
+    "slot": 1,
+    "phi": 270,
+    "launchDay": -294
+   },
+   {
+    "id": "P10-S02",
+    "plane": 10,
+    "slot": 2,
+    "phi": 270,
+    "launchDay": -290
+   },
+   {
+    "id": "P10-S03",
+    "plane": 10,
+    "slot": 3,
+    "phi": 270,
+    "launchDay": -290
+   },
+   {
+    "id": "P10-S04",
+    "plane": 10,
+    "slot": 4,
+    "phi": 270,
+    "launchDay": -307
+   },
+   {
+    "id": "P10-S05",
+    "plane": 10,
+    "slot": 5,
+    "phi": 270,
+    "launchDay": -302
+   },
+   {
+    "id": "P10-S06",
+    "plane": 10,
+    "slot": 6,
+    "phi": 270,
+    "launchDay": -302
+   },
+   {
+    "id": "P10-S07",
+    "plane": 10,
+    "slot": 7,
+    "phi": 270,
+    "launchDay": -302
+   },
+   {
+    "id": "P10-S08",
+    "plane": 10,
+    "slot": 8,
+    "phi": 270,
+    "launchDay": -304
+   },
+   {
+    "id": "P10-S09",
+    "plane": 10,
+    "slot": 9,
+    "phi": 270,
+    "launchDay": -307
+   },
+   {
+    "id": "P10-S10",
+    "plane": 10,
+    "slot": 10,
+    "phi": 270,
+    "launchDay": -297
+   },
+   {
+    "id": "P10-S11",
+    "plane": 10,
+    "slot": 11,
+    "phi": 270,
+    "launchDay": -299
+   },
+   {
+    "id": "P10-S12",
+    "plane": 10,
+    "slot": 12,
+    "phi": 270,
+    "launchDay": -306
+   },
+   {
+    "id": "P10-S13",
+    "plane": 10,
+    "slot": 13,
+    "phi": 270,
+    "launchDay": -306
+   },
+   {
+    "id": "P10-S14",
+    "plane": 10,
+    "slot": 14,
+    "phi": 270,
+    "launchDay": -304
+   },
+   {
+    "id": "P10-S15",
+    "plane": 10,
+    "slot": 15,
+    "phi": 270,
+    "launchDay": -293
+   },
+   {
+    "id": "P10-S16",
+    "plane": 10,
+    "slot": 16,
+    "phi": 270,
+    "launchDay": -294
+   },
+   {
+    "id": "P10-S17",
+    "plane": 10,
+    "slot": 17,
+    "phi": 270,
+    "launchDay": -307
+   },
+   {
+    "id": "P10-S18",
+    "plane": 10,
+    "slot": 18,
+    "phi": 270,
+    "launchDay": -305
+   },
+   {
+    "id": "P10-S19",
+    "plane": 10,
+    "slot": 19,
+    "phi": 270,
+    "launchDay": -303
+   },
+   {
+    "id": "P10-S20",
+    "plane": 10,
+    "slot": 20,
+    "phi": 270,
+    "launchDay": -307
+   },
+   {
+    "id": "P11-S01",
+    "plane": 11,
+    "slot": 1,
+    "phi": 300,
+    "launchDay": -195
+   },
+   {
+    "id": "P11-S02",
+    "plane": 11,
+    "slot": 2,
+    "phi": 300,
+    "launchDay": -204
+   },
+   {
+    "id": "P11-S03",
+    "plane": 11,
+    "slot": 3,
+    "phi": 300,
+    "launchDay": -205
+   },
+   {
+    "id": "P11-S04",
+    "plane": 11,
+    "slot": 4,
+    "phi": 300,
+    "launchDay": -199
+   },
+   {
+    "id": "P11-S05",
+    "plane": 11,
+    "slot": 5,
+    "phi": 300,
+    "launchDay": -208
+   },
+   {
+    "id": "P11-S06",
+    "plane": 11,
+    "slot": 6,
+    "phi": 300,
+    "launchDay": -200
+   },
+   {
+    "id": "P11-S07",
+    "plane": 11,
+    "slot": 7,
+    "phi": 300,
+    "launchDay": -196
+   },
+   {
+    "id": "P11-S08",
+    "plane": 11,
+    "slot": 8,
+    "phi": 300,
+    "launchDay": -205
+   },
+   {
+    "id": "P11-S09",
+    "plane": 11,
+    "slot": 9,
+    "phi": 300,
+    "launchDay": -202
+   },
+   {
+    "id": "P11-S10",
+    "plane": 11,
+    "slot": 10,
+    "phi": 300,
+    "launchDay": -203
+   },
+   {
+    "id": "P11-S11",
+    "plane": 11,
+    "slot": 11,
+    "phi": 300,
+    "launchDay": -205
+   },
+   {
+    "id": "P11-S12",
+    "plane": 11,
+    "slot": 12,
+    "phi": 300,
+    "launchDay": -195
+   },
+   {
+    "id": "P11-S13",
+    "plane": 11,
+    "slot": 13,
+    "phi": 300,
+    "launchDay": -208
+   },
+   {
+    "id": "P11-S14",
+    "plane": 11,
+    "slot": 14,
+    "phi": 300,
+    "launchDay": -197
+   },
+   {
+    "id": "P11-S15",
+    "plane": 11,
+    "slot": 15,
+    "phi": 300,
+    "launchDay": -207
+   },
+   {
+    "id": "P11-S16",
+    "plane": 11,
+    "slot": 16,
+    "phi": 300,
+    "launchDay": -207
+   },
+   {
+    "id": "P11-S17",
+    "plane": 11,
+    "slot": 17,
+    "phi": 300,
+    "launchDay": -201
+   },
+   {
+    "id": "P11-S18",
+    "plane": 11,
+    "slot": 18,
+    "phi": 300,
+    "launchDay": -203
+   },
+   {
+    "id": "P11-S19",
+    "plane": 11,
+    "slot": 19,
+    "phi": 300,
+    "launchDay": -199
+   },
+   {
+    "id": "P11-S20",
+    "plane": 11,
+    "slot": 20,
+    "phi": 300,
+    "launchDay": -196
+   },
+   {
+    "id": "P12-S01",
+    "plane": 12,
+    "slot": 1,
+    "phi": 330,
+    "launchDay": -191
+   },
+   {
+    "id": "P12-S02",
+    "plane": 12,
+    "slot": 2,
+    "phi": 330,
+    "launchDay": -201
+   },
+   {
+    "id": "P12-S03",
+    "plane": 12,
+    "slot": 3,
+    "phi": 330,
+    "launchDay": -198
+   },
+   {
+    "id": "P12-S04",
+    "plane": 12,
+    "slot": 4,
+    "phi": 330,
+    "launchDay": -201
+   },
+   {
+    "id": "P12-S05",
+    "plane": 12,
+    "slot": 5,
+    "phi": 330,
+    "launchDay": -195
+   },
+   {
+    "id": "P12-S06",
+    "plane": 12,
+    "slot": 6,
+    "phi": 330,
+    "launchDay": -201
+   },
+   {
+    "id": "P12-S07",
+    "plane": 12,
+    "slot": 7,
+    "phi": 330,
+    "launchDay": -210
+   },
+   {
+    "id": "P12-S08",
+    "plane": 12,
+    "slot": 8,
+    "phi": 330,
+    "launchDay": -208
+   },
+   {
+    "id": "P12-S09",
+    "plane": 12,
+    "slot": 9,
+    "phi": 330,
+    "launchDay": -205
+   },
+   {
+    "id": "P12-S10",
+    "plane": 12,
+    "slot": 10,
+    "phi": 330,
+    "launchDay": -198
+   },
+   {
+    "id": "P12-S11",
+    "plane": 12,
+    "slot": 11,
+    "phi": 330,
+    "launchDay": -204
+   },
+   {
+    "id": "P12-S12",
+    "plane": 12,
+    "slot": 12,
+    "phi": 330,
+    "launchDay": -202
+   },
+   {
+    "id": "P12-S13",
+    "plane": 12,
+    "slot": 13,
+    "phi": 330,
+    "launchDay": -196
+   },
+   {
+    "id": "P12-S14",
+    "plane": 12,
+    "slot": 14,
+    "phi": 330,
+    "launchDay": -201
+   },
+   {
+    "id": "P12-S15",
+    "plane": 12,
+    "slot": 15,
+    "phi": 330,
+    "launchDay": -206
+   },
+   {
+    "id": "P12-S16",
+    "plane": 12,
+    "slot": 16,
+    "phi": 330,
+    "launchDay": -204
+   },
+   {
+    "id": "P12-S17",
+    "plane": 12,
+    "slot": 17,
+    "phi": 330,
+    "launchDay": -202
+   },
+   {
+    "id": "P12-S18",
+    "plane": 12,
+    "slot": 18,
+    "phi": 330,
+    "launchDay": -207
+   },
+   {
+    "id": "P12-S19",
+    "plane": 12,
+    "slot": 19,
+    "phi": 330,
+    "launchDay": -205
+   },
+   {
+    "id": "P12-S20",
+    "plane": 12,
+    "slot": 20,
+    "phi": 330,
+    "launchDay": -204
+   }
+  ]
+ },
+ "vehicle": {
+  "dryKg": 235,
+  "xenonKg": 100,
+  "thrustN": 0.06,
+  "ispS": 1500,
+  "clientKg": 250,
+  "releaseKm": 450,
+  "shellKm": 900,
+  "incDeg": 53,
+  "rpoDays": 14,
+  "rpoDv": 12,
+  "dragMakeupMsPerYr": 25,
+  "reserveKg": 4,
+  "launchPhi": 200,
+  "horizonDays": 1096,
+  "slaDays": 365,
+  "lookDepth": 3,
+  "lookWidth": 5,
+  "lookObjective": "sum"
+ }
+}
