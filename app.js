@@ -136,7 +136,7 @@
       t.textContent = '#' + (k + 1) + ' ' + sv.id;
     });
     var other = view === 'coupled' ? R.plan.park : R.plan.coupled;
-    $('planTitle').textContent = (view === 'coupled' ? 'Drift-coupled plan: ' : 'Return-and-park plan: ') + plan.served.length + ' disposals before the tank runs dry';
+    $('planTitle').textContent = (view === 'coupled' ? 'Drift-coupled plan: ' : 'Return-and-park plan: ') + plan.served.length + ' disposals ' + (plan.stop === 'propellant' ? 'before the tank runs dry' : plan.stop === 'horizon' ? 'within the 3-year contract' : 'with every failure cleared');
     $('planMeta').innerHTML = 'Failure history #' + C.baseSeed + ': ' + R.jobs.length + ' failed satellites through ' + fmtMonth(P.horizonDays) + '. ' +
       (view === 'coupled' ? 'Otter waits at ' + P.releaseKm + ' km after each release and climbs when the next plane lines up. Return-and-park on the same history: ' + other.served.length + '.'
         : 'Otter climbs back after every release, then descends again to drift to the next plane. Drift-coupled on the same history: ' + other.served.length + '.');
